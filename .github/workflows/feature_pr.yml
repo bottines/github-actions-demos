@@ -11,3 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo "Feature branch pull request"
+            - run: python main.py
+              shell: python

@@ -11,3 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo "Push to feature branch"
+            - run: python main.py
+              shell: python
