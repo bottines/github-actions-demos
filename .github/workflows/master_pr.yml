@@ -1,0 +1,13 @@
+name: Master branch pull request workflow
+
+on:
+    pull_request:
+        branches:
+            - master
+
+jobs:
+
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Master branch pull request"
