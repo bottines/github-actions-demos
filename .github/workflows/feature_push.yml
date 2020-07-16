@@ -1,0 +1,13 @@
+name: Feature branch push workflow
+
+on:
+    push:
+        branches:
+            - feature
+
+jobs:
+
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Push to feature branch"
